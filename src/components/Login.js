@@ -27,7 +27,7 @@ export default class PersonList extends React.Component {
 		formData.append("username", this.state.username);
 		formData.append("password", this.state.password);    
         axios
-            .post("http://mwinkler.eu5.net/my_login.php", formData)
+            .post("url_of_server", formData)
             .then((res) => {
                 if(res.data == this.state.username){
                     
