@@ -1,0 +1,63 @@
+
+body{
+    height: fit-content;
+}
+
+.TriviaMainDiv{
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+}
+
+.questionHeader{
+    border-radius: 10px;
+    font-family: monospace;
+    font-size: 40px;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    color:wheat;
+    background-color:steelblue;
+}
+
+.inputs{
+    
+    background-color:cornflowerblue;
+    text-align: center;
+    align-self: center;
+    width: 200px;
+    height: 45px;
+    margin: 20px;
+    font-size: larger;
+    
+}
+
+.TriviaSubmitBtn{
+    border-radius: 6px;
+    background-color:olive;
+    justify-content: center;
+    width: 150px;
+    height: 80px;
+    margin: 30px;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: large;
+}
+
+
+.formDiv{
+    display:flex;
+    align-items: center;
+    border-radius: 30px;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    width: 450px;
+    height: 500px;
+}
+
+.formEle{
+    align-items: center;
+    justify-content: center;
+}
+

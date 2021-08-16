@@ -1,0 +1,62 @@
+.mainDiv{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+}
+
+.inputs{
+    border-radius: 10px;
+    background-color:cornflowerblue;
+    text-align: center;
+    align-self: center;
+    width: 200px;
+    height: 45px;
+    margin: 20px;
+    font-size: larger;
+    
+}
+
+.submitBtn{
+    border-radius: 6px;
+    background-color:olive;
+    justify-content: center;
+    width: 150px;
+    height: 55px;
+    margin: 30px;
+    font-family: monospace;
+    font-size: large;
+    font-weight: bold;
+
+}
+
+.registerBtn{
+    text-align: center;
+    border-radius: 6px;
+    background-color:olive;
+    justify-content: center;
+    width: fit-content;
+    height:55px;
+    margin: 30px;
+    font-family:monospace;
+    font-size: large;
+    font-weight: bold;
+
+}
+
+.formDiv{
+    display:flex;
+    align-items: center;
+    border-radius: 30px;
+    justify-content: center;
+    
+    align-self: center;
+    text-align: center;
+    width: 450px;
+    height: 500px;
+}
+
+.formEle{
+    align-items: center;
+    justify-content: center;
+}

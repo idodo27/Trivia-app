@@ -1,0 +1,58 @@
+html, body, #root, #root>div {
+  height: 100%;
+  margin: 0;
+  background-image: url("./images/world.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.App{
+  height: 100%;
+  width: 100%;
+  display:inline-flex;
+  justify-content: center;
+  align-self:center;
+  align-items: center;
+  text-align: center;
+}
+
+.header{
+  font-family: monospace;
+  border-radius: 10px;
+  color: wheat;
+  background-color: cadetblue;
+  font-size: 40px;
+  justify-content: center;
+  text-align: center;
+  
+}
+.maindiv{
+  border-radius: 30px;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  display: block;
+  text-align: center;
+  
+}
+
+.submitBtn{
+  border-radius: 6px;
+  background-color:olive;
+  justify-content: center;
+  width: 150px;
+  height: 55px;
+  margin: 30px;
+  font-family: monospace;
+  font-size: large;
+  font-weight: bold;
+
+}
+
+.nameHeader{
+  font-family: monospace;
+  font-size: 40px;
+  justify-content: center;
+  text-align: center;
+  color: cornsilk;
+}
