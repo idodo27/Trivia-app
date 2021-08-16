@@ -17,7 +17,7 @@ const Trivia = () => {
 		    formData.append("username", localStorage.getItem("name"));
 		    formData.append("password", localStorage.getItem("password"));
             axios
-            .post("http://mwinkler.eu5.net/my_login.php", formData)
+            .post("url_of_server", formData)
             .then((res) => {
                 if(res.data == localStorage){
                     
@@ -33,7 +33,7 @@ const Trivia = () => {
         
         
         axios
-            .get("http://mwinkler.eu5.net/trivia_game.php")
+            .get("url_of_server")
             .then((res) => {
                 setQuestions(Object.values(res.data));
             }).catch((error) => {
@@ -53,7 +53,7 @@ const Trivia = () => {
 		formData.append("username", localStorage.getItem("name"));
 		formData.append("password", localStorage.getItem("password"));
         axios
-            .post("http://mwinkler.eu5.net/my_login.php", formData)
+            .post("url_of_server", formData)
             .then((res) => {
                 if(res.data == localStorage.getItem("name")){
                     
